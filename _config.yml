@@ -3,7 +3,7 @@ title: The Hands on Learner Space
 subtitle: by ResTemblance, LLC
 email: support@handsonlearner.space
 description: We provide models to explore and play with STEM <br /> without forgetting the art of computer science.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/forty-jekyll-theme/default.html" # the subpath of your site, e.g. /blog
 url: handsonlearner.github.io # the base hostname & protocol for your site
 author: Dr. Cristal Harris
 street_address: 

@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: Restemblance's Vision, Mission and Background
-image: assets/images/pic11.jpg
+image: assets/images/Restemblance Logo w. Slogan2-01.jpg
 nav-menu: true
 ---
 

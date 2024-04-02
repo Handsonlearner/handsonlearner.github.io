@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Computer Elements
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -16,8 +16,14 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Elements of Computer Science Learning</h2>
+<p>Teach learners how to engage in playful, hands-on, computer science activities thet include STEM content</p>
+<li>Real Number System</li>
+<ul></ul>
+<ul>Grades 4 - 9 Mathematics</ul>
+<ul>Earth and Space Science</ul>
+
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>

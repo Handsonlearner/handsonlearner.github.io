@@ -6,7 +6,7 @@ image: assets/images/pic07.jpg
 nav-menu: true
 ---
 
-Vision: “We are in an era of computer science as a fundamental academic skill"
+Vision: We are in an era of computer science as a fundamental academic skill.
 
 Mission: Strengthening our ability to perform in STEM aubjects using the art of computer science.
 

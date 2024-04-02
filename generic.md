@@ -8,7 +8,7 @@ nav-menu: true
 
 Vision: “We are in an era of computer science as a fundamental academic skill"
 
-Mission: Strengthening our ability to perform in STEAM aubjects using the art of computer science.
+Mission: Strengthening our ability to perform in STEM aubjects using the art of computer science.
 
 Challenge: Technology is advancing at such a rate that traditional ways of teaching and learning are not pushing students and teachers to their full potential.
 

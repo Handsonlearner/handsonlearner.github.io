@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Computer Elements
+title: Elements of Data Literacy
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -16,13 +16,12 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Elements of Computer Science Learning</h2>
-<p>Teach learners how to engage in playful, hands-on, computer science activities thet include STEM content</p>
-<li>Real Number System</li>
-<ul></ul>
-<ul>Grades 4 - 9 Mathematics</ul>
-<ul>Earth and Space Science</ul>
-
+<h2 id="content">Elements of Data Literacy</h2>
+<p>Teach learners how to engage in playful, hands-on, data literacy activities thet include STEM content. Data Literacy involve coding activities to build your learning games!</p>
+<li>Integer Game with Scratch Animation</li>
+<ul>Pizza Orders with Scratch Animation</ul>
+<ul>Finding the Big Dipper with Scratch Animation. Decimals Data</ul>
+<ul>Rock, Paper, Scissors with Python Programming </ul>
 
 <div class="row">
 	<div class="6u 12u$(small)">

@@ -18,9 +18,9 @@ nav-menu: true
 <!-- Content -->
 <h2 id="content">Elements of Data Literacy</h2>
 <p>Teach learners how to engage in playful, hands-on, data literacy activities thet include STEM content. Data Literacy involve coding activities to build your learning games!</p>
-<li>Integer Game with Scratch Animation</li>
+<ol>Integer Game with Scratch Animation</ol>
 <ul>Pizza Orders with Scratch Animation</ul>
-<ul>Finding the Big Dipper with Scratch Animation. Decimals Data</ul>
+<ul>Finding the Big Dipper with Scratch Animation</ul>
 <ul>Rock, Paper, Scissors with Python Programming </ul>
 
 <div class="row">

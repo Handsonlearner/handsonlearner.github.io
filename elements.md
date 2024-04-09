@@ -35,7 +35,7 @@ nav-menu: true
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>How to gain study skills using problem-solving activities</h3>
-		<p>We embed</p>
+		<p>We equip learners with strategies to develop innate and intrinsic abilities.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>How to assess my learner's ability to think critically</h3>

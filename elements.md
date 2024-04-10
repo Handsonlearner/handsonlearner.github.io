@@ -16,7 +16,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Our Services</h2>
+<h2 id="content">Rethink STEM learning</h2>
 <ol>
 	<ul><a href ="#">How to help my learner better understand mathematics content</a></a></ul>
 	<ul>How to engage my learner in STEM subjects</ul>

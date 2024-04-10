@@ -18,7 +18,7 @@ nav-menu: true
 <!-- Content -->
 <h2 id="content">Rethink STEM learning</h2>
 <ol>
-	<ul><a href ="#">How to help my learner better understand mathematics content</a></a></ul>
+	<ul><a id ="How to help my learner better understand mathematics content">How to help my learner better understand mathematics content</a></ul>
 	<ul>How to engage my learner in STEM subjects</ul>
 	<ul>How to gain study skills using problem-solving activities</ul>
 	<ul>How to assess my learner's ability to think critically</ul>

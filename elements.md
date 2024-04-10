@@ -38,15 +38,15 @@ nav-menu: true
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>How to gain study skills using problem-solving activities</h3>
-		<p>We equip learners with strategies to develop innate and intrinsic abilities.</p>
+		<p>We equip learners with strategies to develop innate and intrinsic mindsets.</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>How to assess my learner's ability to think critically</h3>
 		<p>We assess levels of problem-solving ability to identify areas of improvement and strength of our learners when engaged in STEM activities.</p>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
+		<p>We offer professional learning to move beyond technology applications and increase their knowledge of computer science. We conduct an iterative process of assessments and evaluations to design and identify STEM learning environments. </p>
 	</div>
 </div>
 

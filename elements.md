@@ -12,17 +12,17 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>What you need.</h1>
+			<h1>Learn by doing.</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">Rethink STEM learning</h2>
+<h2 id="content">Hands-on STEM Learning involves:</h2>
 <ol>
 	<ul><a id ="How to help my learner better understand mathematics content">How to help my learner better understand mathematics content</a></ul>
-	<ul>How to engage my learner in STEM subjects</ul>
-	<ul>How to gain study skills using problem-solving activities</ul>
-	<ul>How to assess my learner's ability to think critically</ul>
-	<ul>How to train professionals to use effective technology resources and problem-solving 	methodologies in their environment.</ul>
+	<ul><a id ="How to engage my learner in STEM subjects">How to engage my learner in STEM subjects</a></ul>
+	<ul><a id ="How to gain study skills using problem-solving activities">How to gain study skills using problem-solving activities</a></ul>
+	<ul><a id ="How to assess my learner's ability to think critically">How to assess my learner's ability to think critically</a></ul>
+	<ul><a id ="How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</ul>
 </ol>
 
 

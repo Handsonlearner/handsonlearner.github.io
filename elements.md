@@ -22,7 +22,7 @@ nav-menu: true
 	<ul><a id ="How to engage my learner in STEM subjects">How to engage my learner in STEM subjects</a></ul>
 	<ul><a id ="How to gain study skills using problem-solving activities">How to gain study skills using problem-solving activities</a></ul>
 	<ul><a id ="How to assess my learner's ability to think critically">How to assess my learner's ability to think critically</a></ul>
-	<ul><a id ="How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</ul>
+	<ul><a id ="How to train education stakeholders (parents, teachers and community person to use effective technology resources and problem-solving methodologies in their environment">How to train professionals to use effective technology resources and problem-solving methodologies in their environment</a></ul>
 </ol>
 
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Educational Services
+title: Curriculum and Evaluation Services
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -19,17 +19,17 @@ nav-menu: true
 <h3>How to help my learner better understand mathematics content</h3>
 <blockquote>We provide STEM resources that allow learners to become STEM developers (creators) of a product or process and solve STEM problems.</blockquote>
 
-h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<h3>How to engage my learner in STEM subjects</h3>
+<blockquote>We immerse learners in computer science activities that increase student engagement and help learners to understand advanced STEM content.</blockquote>
 
-h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<h3>How to gain study skills using problem-solving activities</h3>
+<blockquote>We equip learners with strategies to develop innate and intrinsic mindsets.</blockquote>
 
-h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<h3>How to assess my learner's ability to think critically</h3>
+<blockquote>We assess levels of problem-solving ability to identify areas of improvement and strength of our learners when engaged in STEM activities.</blockquote>
 
-h3>Blockquote</h3>
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
+<blockquote>We offer professional learning to move beyond technology applications and increase their knowledge of computer science. We conduct an iterative process of assessments and evaluations to design and identify STEM learning environments.</blockquote>
 <!-- Content -->
 <h2 id="content">Hands-on STEM Learning involves:</h2>
 <ol>

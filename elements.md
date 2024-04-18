@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum and Evaluation Services
+title: Elements
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

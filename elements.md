@@ -30,40 +30,7 @@ nav-menu: true
 
 <h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
 <blockquote>We offer professional learning to move beyond technology applications and increase their knowledge of computer science. We conduct an iterative process of assessments and evaluations to design and identify STEM learning environments.</blockquote>
-<!-- Content -->
-<h2 id="content">Hands-on STEM Learning involves:</h2>
-<ol>
-	<ul><a id ="How to help my learner better understand mathematics content">How to help my learner better understand mathematics content</a></ul>
-	<ul><a id ="How to engage my learner in STEM subjects">How to engage my learner in STEM subjects</a></ul>
-	<ul><a id ="How to gain study skills using problem-solving activities">How to gain study skills using problem-solving activities</a></ul>
-	<ul><a id ="How to assess my learner's ability to think critically">How to assess my learner's ability to think critically</a></ul>
-	<ul><a id ="How to train education stakeholders (parents, teachers and community person to use effective technology resources and problem-solving methodologies in their environment">How to train professionals to use effective technology resources and problem-solving methodologies in their environment</a></ul>
-</ol>
 
-
-<div class="row">
-	<div class="6u 12u$(small)">
-		<h3>How to help my learner better understand mathematics content</h3>
-		<p>We provide STEM resources that allow learners to become STEM developers (creators) of a product or process and solve STEM problems.</p>
-	</div>
-	<div class="6u$ 12u$(small)">
-		<h3>How to engage my learner in STEM subjects</h3>
-		<p>We immerse learners in computer science activities that increase student engagement and help learners to understand advanced STEM content.</p>
-	</div>
-	<!-- Break -->
-	<div class="4u 12u$(medium)">
-		<h3>How to gain study skills using problem-solving activities</h3>
-		<p>We equip learners with strategies to develop innate and intrinsic mindsets.</p>
-	</div>
-	<div class="4u 12u$(medium)">
-		<h3>How to assess my learner's ability to think critically</h3>
-		<p>We assess levels of problem-solving ability to identify areas of improvement and strength of our learners when engaged in STEM activities.</p>
-	</div>
-	<div class="4u$ 12u$(medium)">
-		<h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
-		<p>We offer professional learning to move beyond technology applications and increase their knowledge of computer science. We conduct an iterative process of assessments and evaluations to design and identify STEM learning environments. </p>
-	</div>
-</div>
 
 <hr class="major" />
 

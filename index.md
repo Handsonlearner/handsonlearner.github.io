@@ -8,4 +8,4 @@ author: null
 show_tile: false
 ---
 
-We serve all learners to engage in models that foster creativity, play, exploration, and build STEM knowledge. Learning should be hands-on, and fun! Dive in.
+We serve all learners to engage in learning models that foster creativity, play, exploration, and build STEM knowledge. Learning should be hands-on, and fun! Dive in.

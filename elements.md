@@ -29,8 +29,9 @@ nav-menu: true
 <blockquote>We assess levels of problem-solving ability to identify areas of improvement and strength of our learners when engaged in STEM activities.</blockquote>
 
 <h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
-<blockquote>We offer professional learning to move beyond technology applications and increase their knowledge of computer science. We conduct an iterative process of assessments and evaluations to design and identify STEM learning environments.</blockquote>
+<blockquote>We teach how to move beyond technology applications and how to increase critical thinking skills. We design STEM learning tasks that allows learners to succeed in advanced math courses.</blockquote>
 
+<p><b>Restemblance prepares young learners with an alternative way of learn math to handle advanced math content.</b></p>
 
 <hr class="major" />
 

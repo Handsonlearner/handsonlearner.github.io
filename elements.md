@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Learn by doing
+description: What we do
 image: assets/images/pic08enggirl1.jpg
 nav-menu: true
 ---

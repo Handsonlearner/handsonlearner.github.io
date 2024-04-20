@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Real STEM is hands on.'
 description: null
-image: assets/images/pic08python2.jpg
+image: assets/images/banner.jpg
 author: null
 show_tile: false
 ---

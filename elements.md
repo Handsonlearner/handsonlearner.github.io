@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learn
+title: Learn by doing
 image: assets/images/pic01.jpg
 nav-menu: true
 ---

@@ -2,7 +2,7 @@
 title: Talent
 layout: landing
 description: 'Our vision is to implement strategies to limit growth of new digital divide in STEM.'
-image: assets/images/code.jpg
+image: assets/images/pic04scratchonipad.jpg
 nav-menu: true
 ---
 

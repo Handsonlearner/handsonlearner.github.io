@@ -8,9 +8,9 @@ nav-menu: true
 
 <blockquote><b>Vision:</b> We are in an era of computer science as a fundamental academic skill.</blockquote>
 
-<blockquote><b>Mission:</b>Strengthening our ability to perform in STEM aubjects using the art of computer science.</blockquote>
+<blockquote><b>Mission:</b> Strengthening our ability to perform in STEM aubjects using the art of computer science.</blockquote>
 
-<blockquote>Challenge: Technology is advancing at such a rate that traditional ways of teaching and learning are not pushing students and teachers to their full potential.</blockquote>
+<blockquote><b> Our Challenge: </b> Technology is advancing at such a rate that traditional ways of teaching and learning are not pushing students and teachers to their full potential.</blockquote>
 
 According to the Nation’s Report Card, the National Center of Education Statistics (NCES) administered a 2022 NAEP (National Assessment of Educational Progress) Long Term Trend (LTT) reading and mathematics assessment for 9 year-olds. The purpose was to compare student growth from pre-Covid 2020 events and post-Covid effects of transient instruction (face-to-face to virtual or hybrid). Results show a 5-point decrease in reading and 7-point decrease in mathematics compare to scores in 2020, markedly the largest decline in average scores since 1990 and first time ever that mathematics scores declined (NAEP, 2024). 
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learn by doing
-image: assets/images/pic01vrboy1.jpg
+image: assets/images/pic08enggirl1.jpg
 nav-menu: true
 ---
 

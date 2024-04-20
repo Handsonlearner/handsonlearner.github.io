@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Learn
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -34,7 +34,7 @@ nav-menu: true
 <p><b>Restemblance prepares young learners with an alternative way of learn math to handle advanced math content.</b></p>
 
 <hr class="major" />
-
+<!--
 <!-- Elements -->
 <h2 id="elements">Elements</h2>
 <div class="row 200%">
@@ -367,3 +367,4 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </section>
 
 </div>
+-->

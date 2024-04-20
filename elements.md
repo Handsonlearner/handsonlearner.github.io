@@ -31,7 +31,7 @@ nav-menu: true
 <h3>How to train professionals to use effective technology resources and problem-solving methodologies in their environment.</h3>
 <blockquote>We teach how to move beyond technology applications and how to increase critical thinking skills. We design STEM learning tasks that allows learners to succeed in advanced math courses.</blockquote>
 
-<p><b>Restemblance prepares young learners with an alternative way of learn math to handle advanced math content.</b></p>
+<p><b>Restemblance prepares young learners with an alternative way in understanding STEM in order to handle advanced STEM content.</b></p>
 
 <hr class="major" />
 <!--

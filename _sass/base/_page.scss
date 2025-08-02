@@ -5,7 +5,7 @@
 ///
 
 // Ensures page width is always >=320px.
-		@use 'breakpoint(xsmall)' {
+		@as breakpoint(xsmall) {
 			html, body {
 				min-width: 320px;
 			}
@@ -38,4 +38,5 @@
 
 
 	}
+
 

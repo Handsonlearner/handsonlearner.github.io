@@ -15,7 +15,14 @@
 //Components.
 @use 'components/section';
 @use 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/table';
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
 
 /*
 	Forty by HTML5 UP
@@ -63,12 +70,7 @@
 
 
 // Component.
-
-	@import 'components/box';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/table';
+	
 	@import 'components/button';
 	@import 'components/tiles';
 	@import 'components/contact-method';

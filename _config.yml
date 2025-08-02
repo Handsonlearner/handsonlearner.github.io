@@ -36,6 +36,10 @@ markdown: kramdown
 
 sass:
   style: compressed
+  load_paths:
+    - _sass
+    - assets/css
+
 
 exclude:
 - "*.gemspec"

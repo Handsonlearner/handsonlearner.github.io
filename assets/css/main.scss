@@ -8,6 +8,9 @@
 
 //Base
 
+@use 'functions';
+@use 'mixins';
+
 @use 'base/page';
 @use 'base/typography';
 @use 'skel-breakpoints';

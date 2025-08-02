@@ -8,9 +8,6 @@
 
 //Base
 
-
-@use 'mixins';
-
 @use 'base/page';
 @use 'base/typography';
 @use 'skel-breakpoints';
@@ -54,7 +51,8 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
-
+@import "functions";
+@import "mixins";
 
 /*
 	Forty by HTML5 UP

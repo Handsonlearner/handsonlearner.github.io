@@ -3,11 +3,6 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-@use 'sass:color';
-
-.some-class {
-  color: color.adjust($color, $saturation: -5%);
-}
 
 
 /* Type */
@@ -181,6 +176,7 @@
 	.align-right {
 		text-align: right;
 	}
+
 
 
 

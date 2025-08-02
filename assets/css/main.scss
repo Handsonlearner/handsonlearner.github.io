@@ -7,13 +7,10 @@
 @use 'font-awesome.min.css';
 @use 'mixin'
 
-// Base.
-
 @use 'base/page';
 @use 'base/typography';
 @use 'skel-breakpoints';
 
-//Components.
 @use 'components/section';
 @use 'components/form';
 @use 'components/box';
@@ -26,7 +23,6 @@
 @use 'components/contact-method';
 @use 'components/spotlights';
 
-//Layout.
 @use 'layout/header';
 @use 'layout/banner';
 @use 'layout/main';

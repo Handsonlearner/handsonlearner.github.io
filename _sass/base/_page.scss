@@ -31,12 +31,13 @@
 		// Automatically added/removed by js/main.js.
 			&.is-loading {
 				*, *:before, *:after {
-					@include vendor('animation', 'none !important');
-					@include vendor('transition', 'none !important');
+					@import vendor('animation', 'none !important');
+					@import vendor('transition', 'none !important');
 				}
 			}
 
 
 	}
+
 
 

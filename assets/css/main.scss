@@ -36,6 +36,12 @@
 @use 'layout/wrapper';
 @use 'layout/menu';
 
+@use 'sass:color';
+
+.some-class {
+  color: color.adjust($color, $saturation: -5%);
+}
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 

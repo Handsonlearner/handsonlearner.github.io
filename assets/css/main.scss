@@ -52,29 +52,29 @@
 
 // Base.
 
-	@use 'base/page';
-	@use 'base/typography';
+	@import 'base/page';
+	@import 'base/typography';
 
 // Component.
 
-	@use 'components/section';
-	@use 'components/form';
-	@use 'components/box';
-	@use 'components/icon';
-	@use 'components/image';
-	@use 'components/list';
-	@use 'components/table';
-	@use 'components/button';
-	@use 'components/tiles';
-	@use 'components/contact-method';
-	@use 'components/spotlights';
+	@import 'components/section';
+	@import 'components/form';
+	@import 'components/box';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/table';
+	@import 'components/button';
+	@import 'components/tiles';
+	@import 'components/contact-method';
+	@import 'components/spotlights';
 
 // Layout.
 
-	@use 'layout/header';
-	@use 'layout/banner';
-	@use 'layout/main';
-	@use 'layout/contact';
-	@use 'layout/footer';
-	@use 'layout/wrapper';
-	@use 'layout/menu';
+	@import 'layout/header';
+	@import 'layout/banner';
+	@import 'layout/main';
+	@import 'layout/contact';
+	@import 'layout/footer';
+	@import 'layout/wrapper';
+	@import 'layout/menu';

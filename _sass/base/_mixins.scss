@@ -1,0 +1,6 @@
+@mixin breakpoint($point) {
+  @if $point == xlarge {
+    @media (min-width: 1200px) { @content; }
+  }
+  // Add other breakpoints as needed
+}

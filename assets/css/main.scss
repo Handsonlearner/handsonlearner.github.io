@@ -1,5 +1,9 @@
 ---
 ---
+///
+/// Forty by HTML5 UP
+///
+
 @use 'libs/vars';
 @use 'libs/functions';
 @use 'libs/mixins';
@@ -41,26 +45,23 @@
 .some-class {
   color: color.adjust($color, $saturation: -5%);
 }
-
-@mixin breakpoint($point) {
-  @if $point == xlarge {
-    @media (min-width: 1200px) { @content; }
-  }
-  // Add other breakpoints as needed
-}
-
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
-@import "functions";
-@import "mixins";
-
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+@import "functions";
+@import "mixins";
 
-	@include skel-breakpoints((
+@mixin breakpoint($point) {
+  @if $point == xlarge {
+    @media (min-width: 1200px) { @content; }
+  }
+  @include breakpoint(xlarge) {
+    font-size: 14pt;
+}
+  	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
@@ -96,6 +97,8 @@
 			}
 		}
 	}
+
+
 
 
 

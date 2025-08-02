@@ -1,0 +1,55 @@
+/// Gets a duration value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _duration($keys...) {
+	@return val($duration, $keys...);
+}
+
+/// Gets a font value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _font($keys...) {
+	@return val($font, $keys...);
+}
+
+/// Other fonts
+// _functions.scss
+@function _palette($name) {
+  @if $name == fg {
+    @return #444444;
+  }
+  @return null;
+}
+
+@function _font($prop) {
+  @if $prop == family {
+    @return 'Open Sans', sans-serif;
+  } @else if $prop == weight {
+    @return 400;
+  } @else if $prop == letter-spacing {
+    @return 0.03em;
+  }
+  @return null;
+}
+
+
+/// Gets a misc value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _misc($keys...) {
+	@return val($misc, $keys...);
+}
+
+/// Gets a palette value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _palette($keys...) {
+	@return val($palette, $keys...);
+}
+
+/// Gets a size value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _size($keys...) {
+	@return val($size, $keys...);
+}

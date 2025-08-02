@@ -45,6 +45,7 @@
 		&:active {
 			color.adjust($color, $saturation: -5%){
 		}
+			)
 	}
 
 	strong, b {
@@ -176,6 +177,7 @@
 	.align-right {
 		text-align: right;
 	}
+
 
 
 

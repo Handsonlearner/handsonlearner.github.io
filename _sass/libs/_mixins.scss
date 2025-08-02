@@ -1,6 +1,13 @@
 /// Makes an element's :before pseudoelement a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
 /// @param {string} $where Optional pseudoelement to target (before or after).
+
+@mixin breakpoint($point) {
+  @if $point == xlarge {
+    @media (min-width: 1200px) { @content; }
+  }
+  // Add other breakpoints as needed
+}
 @mixin icon($content: false, $where: before) {
 
 	text-decoration: none;
@@ -52,5 +59,6 @@
 	$svg: str-replace($svg, ';', '%3B');
 
 	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
+
 
 }

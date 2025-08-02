@@ -20,6 +20,19 @@
 @use 'components/image';
 @use 'components/list';
 @use 'components/table';
+@use 'components/button';
+@use 'components/tiles';
+@use 'components/contact-method';
+@use 'components/spotlights';
+
+//Layout.
+@use 'layout/header';
+@use 'layout/banner';
+@use 'layout/main';
+@use 'layout/contact';
+@use 'layout/footer';
+@use 'layout/wrapper';
+@use 'layout/menu';
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
@@ -69,19 +82,5 @@
 
 
 
-// Component.
+
 	
-	@import 'components/button';
-	@import 'components/tiles';
-	@import 'components/contact-method';
-	@import 'components/spotlights';
-
-// Layout.
-
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/contact';
-	@import 'layout/footer';
-	@import 'layout/wrapper';
-	@import 'layout/menu';

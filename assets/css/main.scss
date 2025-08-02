@@ -6,6 +6,7 @@
 @use 'libs/skel';
 @use 'font-awesome.min.css';
 @use 'skel-breakpoints';
+@use 'components/section';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 /*
@@ -58,7 +59,7 @@
 
 // Component.
 
-	@use 'components/section';
+	@import 'components/section';
 	@import 'components/form';
 	@import 'components/box';
 	@import 'components/icon';

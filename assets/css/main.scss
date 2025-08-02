@@ -5,8 +5,16 @@
 @use 'libs/mixins';
 @use 'libs/skel';
 @use 'font-awesome.min.css';
+
+// Base.
+
+@use 'base/page';
+@use 'base/typography';
 @use 'skel-breakpoints';
+
+//Components.
 @use 'components/section';
+@use 'components/form';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 /*
@@ -15,7 +23,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	@include skel-breakpoints((
+	@import skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
@@ -24,7 +32,7 @@
 		xxsmall: '(max-width: 360px)'
 	));
 
-	@include skel-layout((
+	@import skel-layout((
 		reset: 'full',
 		boxModel: 'border',
 		grid: ( gutters: 2em ),
@@ -52,15 +60,10 @@
 		}
 	}
 
-// Base.
 
-	@import 'base/page';
-	@import 'base/typography';
 
 // Component.
 
-	@import 'components/section';
-	@import 'components/form';
 	@import 'components/box';
 	@import 'components/icon';
 	@import 'components/image';

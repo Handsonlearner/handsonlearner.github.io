@@ -5,11 +5,15 @@
 @use 'libs/mixins';
 @use 'libs/skel';
 @use 'font-awesome.min.css';
-@use 'mixin'
+@use 'mixin';
+
+//Base
 
 @use 'base/page';
 @use 'base/typography';
 @use 'skel-breakpoints';
+
+//Components
 
 @use 'components/section';
 @use 'components/form';
@@ -22,6 +26,8 @@
 @use 'components/tiles';
 @use 'components/contact-method';
 @use 'components/spotlights';
+
+//Layouts
 
 @use 'layout/header';
 @use 'layout/banner';

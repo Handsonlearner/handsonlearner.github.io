@@ -358,14 +358,14 @@
 		// Config.
 			$configPerBreakpoint: ();
 
-			$z: map-get($config, 'breakpoints');
+			$z: map.get($config, 'breakpoints');
 
 			@if $z {
 				$configPerBreakpoint: $z;
 			}
 
 		// Reset.
-			$x: map-get($config, 'reset');
+			$x: map.get($config, 'reset');
 
 			@if $x {
 
@@ -376,7 +376,7 @@
 			}
 
 		// Box model.
-			$x: map-get($config, 'boxModel');
+			$x: map.get($config, 'boxModel');
 
 			@if $x {
 
@@ -387,7 +387,7 @@
 			}
 
 		// Containers.
-			$containers: map-get($config, 'containers');
+			$containers: map.get($config, 'containers');
 
 			@if $containers {
 
@@ -433,7 +433,7 @@
 			}
 
 		// Grid.
-			$grid: map-get($config, 'grid');
+			$grid: map.get($config, 'grid');
 
 			@if $grid {
 
@@ -584,3 +584,4 @@
 			}
 
 	}
+

@@ -15,11 +15,11 @@
 //Components.
 @use 'components/section';
 @use 'components/form';
-@import 'components/box';
-@import 'components/icon';
-@import 'components/image';
-@import 'components/list';
-@import 'components/table';
+@use 'components/box';
+@use 'components/icon';
+@use 'components/image';
+@use 'components/list';
+@use 'components/table';
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 

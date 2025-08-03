@@ -42,11 +42,11 @@
 			}
 
 			&:active {
-				&:before {
-					color.scale($color, $lightness: -22.9041916168%)
-					color.adjust($color, $lightness: -15%)
-				}
-			}
+   				&:before {
+        				color: adjust-color($color, $lightness: -15%);
+    }
+}
 		}
 
 	}
+

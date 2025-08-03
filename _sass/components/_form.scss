@@ -148,7 +148,7 @@
 			cursor: pointer;
 			display: inline-block;
 			font-weight: _font(weight);
-			padding-left: calc(_size(element-height) * 0.6) + 1em;
+			padding-left: calc(_size(element-height) * 0.6 + 1em);
 			padding-right: 0.75em;
 			position: relative;
 
@@ -223,6 +223,7 @@
 		opacity: 1.0;
 
 	}
+
 
 
 

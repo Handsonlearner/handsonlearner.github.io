@@ -3,7 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
+@use '../mixins' as mixins;
 /* Button */
 
 	input[type="submit"],
@@ -11,8 +11,8 @@
 	input[type="button"],
 	button,
 	.button {
-		@include vendor('appearance', 'none');
-		@include vendor('transition', (
+		@include mixins.vendor('appearance', 'none');
+		@include mixins.vendor('transition', (
 			'background-color #{_duration(transition)} ease-in-out',
 			'box-shadow #{_duration(transition)} ease-in-out',
 			'color #{_duration(transition)} ease-in-out'
@@ -74,7 +74,7 @@
 			position: relative;
 
 			&:before, &:after {
-				@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
+				@include mixins.vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
 				background-position: center right;
 				background-repeat: no-repeat;
 				background-size: 36px 24px;
@@ -104,7 +104,7 @@
 				}
 			}
 
-			@include breakpoint(large) {
+			@include mixins.breakpoint(large) {
 				padding-right: 5em;
 			}
 		}
@@ -126,11 +126,12 @@
 
 		&.disabled,
 		&:disabled {
-			@include vendor('pointer-events', 'none');
+			@include mixins.vendor('pointer-events', 'none');
 			cursor: default;
 			opacity: 0.25;
 		}
 
 	}
+
 
 

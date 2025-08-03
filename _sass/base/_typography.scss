@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-
+@use '../mixins' as mixins;
 /* Type */
 
 	body, input, select, textarea {
@@ -15,19 +15,33 @@
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.65;
 
-		@include breakpoint(xlarge) {
-			font-size: 14pt;
-		}
+	// ...existing code...
+        @include mixins.breakpoint(xlarge) {
+            font-size: 14pt;
+        }
 
-		@include breakpoint(large) {
-			font-size: 12pt;
-		}
+        @include mixins.breakpoint(large) {
+            font-size: 12pt;
+        }
 
-		@include breakpoint(xxsmall) {
-			font-size: 11pt;
-		}
-	}
+        @include mixins.breakpoint(xxsmall) {
+            font-size: 11pt;
+        }
+	// ...existing code...
+   	@include mixins.breakpoint(small) {
+	        h1 {
+	            font-size: 2em;
+	        }
 
+	        h2 {
+	            font-size: 1.5em;
+	        }
+
+	        h3 {
+	            font-size: 1.25em;
+	        }
+  	  }
+	// ...existing code...
 	a {
 		@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
@@ -101,20 +115,6 @@
 		font-size: 0.7em;
 	}
 
-	@include breakpoint(small) {
-		h1 {
-			font-size: 2em;
-		}
-
-		h2 {
-			font-size: 1.5em;
-		}
-
-		h3 {
-			font-size: 1.25em;
-		}
-	}
-
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -177,6 +177,7 @@
 	.align-right {
 		text-align: right;
 	}
+
 
 
 

@@ -43,12 +43,12 @@
 
 			&:active {
     				&:before {
-        				$color: _palette(fg-bold); // or any color you want
-        				color: adjust-color($color, $lightness: -15%);
+	 				color: adjust-color(#222, $lightness: -15%);
     					}
 				}
 			}
 		}
+
 
 
 

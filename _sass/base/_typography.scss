@@ -63,7 +63,7 @@
     		}
 	}
 	.some-class {
-    		color: color.adjust($color, $saturation: -5%);
+    		color: sass:color.adjust($color, $saturation: -5%);
 	}
 
 	strong, b {
@@ -184,6 +184,7 @@
 
 
 }
+
 
 
 

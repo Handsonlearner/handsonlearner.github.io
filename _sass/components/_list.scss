@@ -123,7 +123,7 @@
 
 				&.small {
 					margin-left: calc(_size(element-margin) * -0.5);
-					width: calc(100% + #{(_size(element-margin) * 0.5)});
+					width: calc(100% + _size(element-margin) * 0.5));
 
 					li {
 						padding: 0 0 0 calc(_size(element-margin) * 0.5);
@@ -147,5 +147,6 @@
 		}
 
 	}
+
 
 

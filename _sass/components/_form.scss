@@ -98,7 +98,7 @@
 	}
 
 	.select-wrapper {
-		@include icon;
+		@include mixins.icon;
 		display: block;
 		position: relative;
 
@@ -134,7 +134,7 @@
 
 	input[type="checkbox"],
 	input[type="radio"], {
-		@include vendor('appearance', 'none');
+		@include mixins.vendor('appearance', 'none');
 		display: block;
 		float: left;
 		margin-right: -2em;
@@ -143,7 +143,7 @@
 		z-index: -1;
 
 		& + label {
-			@include icon;
+			@include mixins.icon;
 			color: _palette(fg);
 			cursor: pointer;
 			display: inline-block;
@@ -223,6 +223,7 @@
 		opacity: 1.0;
 
 	}
+
 
 
 

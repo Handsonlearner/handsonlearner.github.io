@@ -3,11 +3,12 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
-// Ensures page width is always >=320px.
-		@include mixins.breakpoint(xsmall) {
-			html, body {
-				min-width: 320px;
+// filepath: /Users/cristalharris/handsonlearner.github.io-4/handsonlearner.github.io-16/_sass/base/_page.scss
+@use '_sass/mixins' as mixins;
+// ...existing code...// Ensures page width is always >=320px.
+	@include mixins.breakpoint(xsmall) {
+		html, body {
+		min-width: 320px;
 			}
 		}
 /* Basic */
@@ -41,6 +42,7 @@
 
 
 	}
+
 
 
 

@@ -66,7 +66,7 @@
 	///Define color variable
 	$color: #333;
 	.some-class {
-    		adjust-color($color, $saturation: -5%);
+    		color: adjust-color($color, $saturation: -5%);
 	}
 
 	strong, b {
@@ -187,6 +187,7 @@
 
 
 }
+
 
 
 

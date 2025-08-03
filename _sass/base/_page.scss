@@ -5,7 +5,7 @@
 ///
 
 // Ensures page width is always >=320px.
-		@as breakpoint(xsmall) {
+		@include mixins.breakpoint(xsmall) {
 			html, body {
 				min-width: 320px;
 			}
@@ -34,13 +34,14 @@
 					-webkit-animation: none !important;
 					-moz-animation: none !important;
    					-ms-animation: none !important;
-        				-animation: none !important;
+        				animation: none !important;
 
 				}
 			}
 
 
 	}
+
 
 
 

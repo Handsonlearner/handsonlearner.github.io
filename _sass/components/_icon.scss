@@ -42,13 +42,16 @@
 			}
 
 			&:active {
-   				&:before {
+    				&:before {
+        				$color: _palette(fg-bold); // or any color you want
         				color: adjust-color($color, $lightness: -15%);
     }
+}
 }
 		}
 
 	}
+
 
 
 

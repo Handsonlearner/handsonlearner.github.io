@@ -3,6 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+@use '../mixins' as mixins;
 
 /* Section/Article */
 
@@ -58,7 +59,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include mixins.breakpoint(small) {
 			&.major {
 				> p {
 					br {
@@ -68,3 +69,4 @@
 			}
 		}
 	}
+

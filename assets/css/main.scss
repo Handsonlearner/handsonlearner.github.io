@@ -55,12 +55,12 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
 
-@mixin breakpoint($point) {
+@include mixins.breakpoint($point) {
   @if $point == xlarge {
     @media (min-width: 1200px) { @content; }
   }
-  @include breakpoint(xlarge) {
-    font-size: 14pt;
+@include mixins.breakpoint(xlarge) {
+ font-size: 14pt;
 }
   	@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',

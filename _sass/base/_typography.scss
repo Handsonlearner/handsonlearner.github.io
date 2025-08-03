@@ -44,7 +44,7 @@
   	  }
 	// ...existing code...
 	a {
-		@include vendor('transition', (
+		@include mixins.vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
@@ -181,6 +181,7 @@
 
 
 }
+
 
 
 

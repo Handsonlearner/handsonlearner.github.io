@@ -3,12 +3,12 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
+@use '../mixins' as mixins;
 /* List */
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 calc(_size(element-margin)) 0;
 		padding-left: 1.25em;
 
 		li {
@@ -18,7 +18,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 calc(_size(element-margin)) 0;
 		padding-left: 1em;
 
 		li {
@@ -54,7 +54,7 @@
 				}
 			}
 
-			@include breakpoint(small) {
+			@include mixins.breakpoint(small) {
 				li {
 					padding: 0 0.75em 0 0;
 				}
@@ -78,14 +78,14 @@
 
 			&.small {
 				li {
-					padding: 0 (_size(element-margin) * 0.5) 0 0;
+					padding: 0 calc(_size(element-margin) * 0.5) 0 0;
 				}
 			}
 
 			&.vertical {
 				li {
 					display: block;
-					padding: (_size(element-margin) * 0.5) 0 0 0;
+					padding: calc(_size(element-margin) * 0.5) 0 0 0;
 
 					&:first-child {
 						padding-top: 0;
@@ -107,7 +107,7 @@
 
 			&.fit {
 				display: table;
-				margin-left: (_size(element-margin) * -0.5);
+				margin-left: calc(_size(element-margin) * -0.5);
 				padding: 0;
 				table-layout: fixed;
 				width: calc(100% + #{(_size(element-margin) * 0.5)});
@@ -126,7 +126,7 @@
 					width: calc(100% + #{(_size(element-margin) * 0.5)});
 
 					li {
-						padding: 0 0 0 (_size(element-margin) * 0.5);
+						padding: 0 0 0 calc(_size(element-margin) * 0.5);
 					}
 				}
 			}
@@ -134,15 +134,16 @@
 	}
 
 	dl {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 calc(_size(element-margin)) 0;
 
 		dt {
 			display: block;
 			font-weight: _font(weight-bold);
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			margin: 0 0 calc(_size(element-margin) * 0.5) 0;
 		}
 
 		dd {
-			margin-left: _size(element-margin);
+			margin-left: calc(_size(element-margin));
 		}
+
 	}

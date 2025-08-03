@@ -169,7 +169,7 @@
 		margin: _size(element-margin) 0;
 
 		&.major {
-			margin: (_size(element-margin) * 1.5) 0;
+			margin: calc(_size(element-margin) * 1.5) 0;
 		}
 	}
 
@@ -187,6 +187,7 @@
 
 
 }
+
 
 
 

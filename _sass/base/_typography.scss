@@ -14,7 +14,7 @@
 		font-weight: _font(weight);
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.65;
-}
+
 
 	// ...existing code...
         @include mixins.breakpoint(xlarge) {
@@ -180,6 +180,7 @@
 	}
 
 
+}
 
 
 

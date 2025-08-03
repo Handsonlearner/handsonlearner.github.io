@@ -10,8 +10,8 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		.field {
-			margin: 0 0 (_size(element-margin) * 1) 0;
-
+    			margin: 0 0 calc(_size(element-margin) * 1) 0;
+		
 			&.half {
 				width: 50%;
 				float: left;
@@ -221,4 +221,5 @@
 	.formerize-placeholder {
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
+
 	}

@@ -5,7 +5,7 @@
 ///
 
 @use '../mixins' as mixins;
-/// @use 'sass:color';
+@use 'sass:color';
 /* Type */
 
 	body, input, select, textarea {
@@ -65,8 +65,7 @@
 	}
 	///Define color variable
 	$color: #333;
-	.some-class {
-    		color: adjust-color($color, $saturation: -5%);
+	@debug color.adjust($color, $saturation: -5%);
 	}
 
 	strong, b {
@@ -187,6 +186,7 @@
 
 
 }
+
 
 
 

@@ -30,6 +30,13 @@
 	}
 
 }
+@mixin vendor($property, $value) {
+  #{$property}: $value;
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+}
 
 /// Applies padding to an element, taking the current element-margin value into account.
 /// @param {mixed} $tb Top/bottom padding.
@@ -64,6 +71,7 @@
 
 
 }
+
 
 
 

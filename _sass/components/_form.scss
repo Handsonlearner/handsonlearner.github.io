@@ -7,7 +7,7 @@
 /* Form */
 
 	form {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 calc(_size(element-margin)) 0;
 
 		.field {
     			margin: 0 0 calc(_size(element-margin) * 1) 0;
@@ -106,8 +106,8 @@
 			color: _palette(border);
 			content: '\f078';
 			display: block;
-			height: _size(element-height);
-			line-height: _size(element-height);
+			height: calc(_size(element-height));
+			line-height: calc(_size(element-height));
 			pointer-events: none;
 			position: absolute;
 			right: 0;
@@ -125,7 +125,7 @@
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: _size(element-height);
+		height: calc(_size(element-height));
 	}
 
 	textarea {
@@ -156,10 +156,10 @@
 				background: _palette(border-bg);
 				content: '';
 				display: inline-block;
-				height: (_size(element-height) * 0.6);
+				height: calc(_size(element-height) * 0.6);
 				left: 0;
 				letter-spacing: 0;
-				line-height: (_size(element-height) * 0.575);
+				line-height: calc(_size(element-height) * 0.575);
 				position: absolute;
 				text-align: center;
 				top: 0;
@@ -223,6 +223,7 @@
 		opacity: 1.0;
 
 	}
+
 
 
 

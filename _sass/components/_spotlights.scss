@@ -5,8 +5,9 @@
 ///
 
 /* Spotlights */
+@use '../mixins' as mixins;
 
-	.spotlights {
+.spotlights {
 		border-top: 0 !important;
 
 		& + * {
@@ -14,8 +15,8 @@
 		}
 
 		> section {
-			@include vendor('display', 'flex');
-			@include vendor('flex-direction', 'row');
+			@include mixins.vendor('display', 'flex');
+			@include mixins.vendor('flex-direction', 'row');
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
 			> .image {
@@ -46,10 +47,10 @@
 			}
 
 			> .content {
-				@include vendor('display', 'flex');
-				@include vendor('flex-direction', 'column');
-				@include vendor('justify-content', 'center');
-				@include vendor('align-items', 'center');
+				@include mixins.vendor('display', 'flex');
+				@include mixins.vendor('flex-direction', 'column');
+				@include mixins.vendor('justify-content', 'center');
+				@include mixins.vendor('align-items', 'center');
 				@include padding(2em, 3em);
 				width: 70%;
 
@@ -61,16 +62,16 @@
 			}
 
 			&:nth-child(2n) {
-				@include vendor('flex-direction', 'row-reverse');
+				@include mixins.vendor('flex-direction', 'row-reverse');
 				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
 
 				> .content {
-					@include vendor('align-items', 'flex-end');
+					@include mixins.vendor('align-items', 'flex-end');
 				}
 			}
 		}
 
-		@include breakpoint(xlarge) {
+		@include mixins.breakpoint(xlarge) {
 			> section {
 				> .image {
 					width: 40%;
@@ -82,7 +83,7 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include mixins.breakpoint(large) {
 			> section {
 				> .image {
 					width: 45%;
@@ -94,7 +95,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include mixins.breakpoint(medium) {
 			> section {
 				display: block;
 
@@ -109,11 +110,12 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include mixins.breakpoint(small) {
 			> section {
 				> .content {
 					@include padding(3em, 1.5em);
 				}
 			}
 		}
+
 	}

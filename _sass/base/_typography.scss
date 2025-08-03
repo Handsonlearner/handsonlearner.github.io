@@ -5,6 +5,7 @@
 ///
 
 @use '../mixins' as mixins;
+@use 'sass:color';
 /* Type */
 
 	body, input, select, textarea {
@@ -62,6 +63,8 @@
         // If you want to style .some-class, do it outside
     		}
 	}
+	///Define color variable
+	$color: #333;
 	.some-class {
     		color: sass:color.adjust($color, $saturation: -5%);
 	}
@@ -184,6 +187,7 @@
 
 
 }
+
 
 
 

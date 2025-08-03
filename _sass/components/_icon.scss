@@ -44,11 +44,12 @@
 
 			&:active {
     				&:before {
-	 				color: adjust-color(#222, $lightness: -15%);
+	 				color: color.adjust(#222, $lightness: -15%);
     					}
 				}
 			}
 		}
+
 
 
 

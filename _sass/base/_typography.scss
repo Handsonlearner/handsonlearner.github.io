@@ -57,11 +57,11 @@
 			color: _palette(highlight) !important;
 		}
 
-		&:active {
-			color.adjust($color, $saturation: -5%){
+		&:active {			
+			.some-class {
+ 			color: color.adjust($color, $saturation: -5%);
 		}
 		}
-	}
 
 	strong, b {
 		color: _palette(fg-bold);
@@ -181,6 +181,7 @@
 
 
 }
+
 
 
 

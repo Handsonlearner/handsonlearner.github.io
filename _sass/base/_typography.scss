@@ -3,7 +3,7 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
-
+@use '../mixins' as mixins;
 /* Type */
 
 	body, input, select, textarea {
@@ -28,7 +28,7 @@
 	}
 
 	a {
-		@include vendor('transition', (
+		@include mixins.vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
@@ -41,10 +41,10 @@
 			color: _palette(highlight) !important;
 		}
 
-		&:active {
+		&:active 
 			color.scale($color, $saturation: -5%);
 			color.adjust($color, $saturation: -5%);
-		}
+		
 	}
 
 	strong, b {
@@ -176,4 +176,5 @@
 	.align-right {
 		text-align: right;
 	}
+
 

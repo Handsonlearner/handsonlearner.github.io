@@ -128,6 +128,15 @@
 			}
 
 			&:active {
+				//added 131-138 remove if it doesn't work
+				$palette: (
+  				highlight: #ffcc00
+				);
+
+			@function _palette($key) {
+		 	@return map-get($palette, $key);
+			}
+
 				background-color: desaturate(darken(_palette(highlight), 15), 5);
 			}
 		}
@@ -140,6 +149,7 @@
 		}
 
 	}
+
 
 
 

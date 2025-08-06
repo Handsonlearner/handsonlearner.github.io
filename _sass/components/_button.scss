@@ -5,7 +5,7 @@
 ///
 @use '../mixins' as mixins;
 @use '../libs/vars' as *; // Make sure you have access to $palette
-@use 'sass: color';
+@use 'sass: color' as *;
 
 
 
@@ -136,6 +136,7 @@
 		}
 
 	}
+
 
 
 

@@ -42,7 +42,8 @@
 		}
 
 		&:active {
-			color: desaturate(darken(_palette(highlight), 15), 5) !important;
+			color.scale($color, $saturation: -5%);
+			color.adjust($color, $saturation: -5%);
 		}
 	}
 
@@ -175,3 +176,4 @@
 	.align-right {
 		text-align: right;
 	}
+

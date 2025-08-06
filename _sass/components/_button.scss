@@ -136,7 +136,7 @@
 			@function _palette($key) {
 		 	@return map.get($palette, $key);
 			}
-
+			{
 				color.scale($color, $lightness: -30%);
 				color.adjust($color, $lightness: -15%);
 			}
@@ -150,6 +150,7 @@
 		}
 
 	}
+
 
 
 

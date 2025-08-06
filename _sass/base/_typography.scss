@@ -6,6 +6,8 @@
 
 @use '../mixins' as mixins;
 @use 'sass:color';
+@use "sass:list";
+
 /* Type */
 
 	body, input, select, textarea {
@@ -183,6 +185,7 @@
 	.align-right {
 		text-align: right;
 	}
+
 
 
 

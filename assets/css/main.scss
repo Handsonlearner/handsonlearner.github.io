@@ -3,10 +3,10 @@
 ///
 /// Forty by HTML5 UP
 ///
-@use 'functions';
+
 @use 'mixins';
 
-@use 'libs/vars';
+//@use 'libs/vars';
 ///@use 'libs/functions';
 ///@use 'libs/mixins';
 @use 'libs/skel-breakpoints';
@@ -29,9 +29,9 @@
 @use 'components/button';
 @use 'components/tiles';
 @use 'components/contact-method';
-//per chatgpt
-@use "variables";      // $palette must be defined here
-@use "functions";      // where _palette() is defined
+//per chatgpt, but changed to match syntax
+@use "libs/vars";      // $palette must be defined here
+@use 'functions';// where _palette() is defined
 //@import "components/spotlights"; // where _palette() is used
 @use 'components/spotlights';
 

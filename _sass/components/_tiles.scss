@@ -87,7 +87,7 @@
 			);
 
 		@function _palette($key) {
-  		@return map-get($palette, $key);
+  		@return map.get($palette, $key);
 		}
 
 				.my-class {

@@ -8,6 +8,8 @@
 @use '../mixins' as mixins;
 @use 'sass:color';
 @use "sass:map";
+@use '../libs/vars' as *; // Make sure you have access to $palette
+
 
 .spotlights {
 		border-top: 0 !important;
@@ -126,6 +128,7 @@
 		}
 
 	}
+
 
 
 

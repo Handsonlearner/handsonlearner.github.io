@@ -7,6 +7,7 @@
 /* Spotlights */
 @use '../mixins' as mixins;
 @use 'sass:color';
+@use "sass:map";
 
 .spotlights {
 		border-top: 0 !important;
@@ -20,7 +21,7 @@
 			@include mixins.vendor('flex-direction', 'row');
 			//added per chatgpt
 			@function _palette($key) {
-  				@return map-get($palette, $key);
+  				@return map.get($palette, $key);
 				}
 			background-color: color.adjust(_palette(bg-alt), $lightness: 2%, $saturation: -1%);
 			//end here
@@ -125,5 +126,6 @@
 		}
 
 	}
+
 
 

@@ -17,7 +17,12 @@
 		> section {
 			@include mixins.vendor('display', 'flex');
 			@include mixins.vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			//added per chatgpt
+			@function _palette($key) {
+  				@return map-get($palette, $key);
+				}
+			background-color: color.adjust(_palette(bg-alt), $lightness: 2%, $saturation: -1%);
+			//end here
 
 			> .image {
 				background-position: center center;
@@ -119,3 +124,4 @@
 		}
 
 	}
+

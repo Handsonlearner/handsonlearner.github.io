@@ -6,6 +6,7 @@
 
 /* Spotlights */
 @use '../mixins' as mixins;
+@use 'sass:color';
 
 .spotlights {
 		border-top: 0 !important;
@@ -124,4 +125,5 @@
 		}
 
 	}
+
 

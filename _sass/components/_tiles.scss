@@ -79,7 +79,22 @@
 			}
 
 			&:after {
-				background-color: rgba(_palette(bg), 0.25); // 0.25 = 25% opacity = same as transparentize by 0.75
+				//ADDED per chatgpt
+				$palette: (
+				bg: #ffffff,
+  				fg: #000000,
+  				highlight: #ffcc00
+			);
+
+		@function _palette($key) {
+  		@return map-get($palette, $key);
+		}
+
+				.my-class {
+  				background-color: rgba(_palette(bg), 0.25); // Will now work correctly
+				}
+				//ends here
+				//background-color: rgba(_palette(bg), 0.25); // 0.25 = 25% opacity = same as transparentize by 0.75
 				content: '';
 				display: block;
 				height: 100%;

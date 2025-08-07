@@ -29,6 +29,10 @@
 @use 'components/button';
 @use 'components/tiles';
 @use 'components/contact-method';
+//per chatgpt
+@use "variables";      // $palette must be defined here
+@use "functions";      // where _palette() is defined
+//@import "components/spotlights"; // where _palette() is used
 @use 'components/spotlights';
 
 //Layouts

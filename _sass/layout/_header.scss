@@ -7,6 +7,7 @@
 /* Header */
 
 @use '../mixins' as mixins;
+@use "sass:color";
 
 	@keyframes('reveal-header') {
 		0% { top: -4em; opacity: 0; }
@@ -59,7 +60,11 @@
 
 			&:active {
 				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
+					background-color: color.adjust(
+ 						_palette(highlight),
+  						$lightness: -15%,
+ 						$saturation: -5%
+						);
 				}
 			}
 		}
@@ -249,4 +254,5 @@
 		}
 
 	}
+
 

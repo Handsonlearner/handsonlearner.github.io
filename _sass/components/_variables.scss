@@ -1,13 +1,36 @@
-// Color palette map
+
+// --------------------------------------------------
+// Global Color Palette
+// --------------------------------------------------
+// Define your main colors here. You can adjust these
+// hex codes to match your brand or theme.
+// --------------------------------------------------
+
 $palette: (
-  bg: #ffffff,
-  bg-alt: #f5f5f5,
-  fg: #333333,
-  fg-bold: #111111,
-  highlight: #ffcc00
+  bg: #ffffff,          // Main background
+  bg-alt: #f5f5f5,      // Alternate background
+  fg: #333333,          // Main foreground (text)
+  fg-light: #666666,    // Lighter text
+  fg-bold: #111111,     // Strong/dark text
+  border: #dddddd,      // Borders/dividers
+  highlight: #ffcc00,   // Accent / highlight color
+  link: #0066cc,        // Links
+  success: #28a745,     // Success messages
+  warning: #ffc107,     // Warnings
+  danger: #dc3545       // Errors/danger
 );
 
-// Function to fetch colors from palette
+// --------------------------------------------------
+// Palette Lookup Function
+// --------------------------------------------------
+// Usage: _palette(highlight) → #ffcc00
+// --------------------------------------------------
+
 @function _palette($key) {
-  @return map-get($palette, $key);
+  @if map-has-key($palette, $key) {
+    @return map-get($palette, $key);
+  } @else {
+    @warn "⚠️  Palette key `#{$key}` not found. Check your $palette map.";
+    @return null;
+  }
 }

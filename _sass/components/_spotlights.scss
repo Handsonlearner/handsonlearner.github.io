@@ -72,11 +72,11 @@
 
 			&:nth-child(2n) {
 				@include mixins.vendor('flex-direction', 'row-reverse');
-				background-color: color.scale($color, $saturation: -7.25%){
-					color.adjust($color, $saturation: -2%)
+				background-color: color.adjust($color, $saturation: -2%);
+				
 				> .content {
 					@include mixins.vendor('align-items', 'flex-end');
-				}
+				
 			}
 		}
 
@@ -126,8 +126,10 @@
 				}
 			}
 		}
-
 	}
+}
+
+
 
 
 

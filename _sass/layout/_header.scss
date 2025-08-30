@@ -6,9 +6,10 @@
 
 /* Header */
 
-@use '../mixins' as mixins;
-@use "sass:color";
+@use "mixins" as mixins;
+@use "sass:color" as color;
 @use "../libs/vars";
+@use "variables";
 
 	@keyframes('reveal-header') {
 		0% { top: -4em; opacity: 0; }
@@ -255,6 +256,7 @@
 		}
 
 	}
+
 
 
 

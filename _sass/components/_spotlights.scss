@@ -24,7 +24,7 @@
 			@include mixins.vendor('flex-direction', 'row');
 			//added per chatgpt
 			@function _palette($key) {
-  				@return map.get($palette, $key);
+  				@return map.get(vars.$palette, $key);
 				}
 			background-color: color.adjust(_palette(bg-alt), $lightness: 2%, $saturation: -1%);
 			//end here
@@ -129,6 +129,7 @@
 		}
 	}
 }
+
 
 
 

@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-@use "../libs/mixins" as mixins;
+@use 'mixins';
 
 /* Banner */
 
@@ -125,11 +125,11 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include mixins.breakpoint(large) {
 			background-attachment: scroll;
 		}
 
-		@include breakpoint(small) {
+		@include mixins.breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
@@ -159,7 +159,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		@include mixins.breakpoint(xsmall) {
 			@include padding(4em, 0, (2em, 0, 0, 0));
 
 			> .inner {
@@ -177,4 +177,5 @@
 			}
 		}
 	}
+
 

@@ -45,7 +45,7 @@
 @use 'layout/wrapper';
 @use 'layout/menu';
 
-@use 'sass:color';
+@use "sass:color" as color;
 @use "variables";
 
 .some-class {

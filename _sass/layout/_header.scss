@@ -63,7 +63,7 @@
 			&:active {
 				strong {
 					background-color: color.adjust(
- 						map.get($palette, 'highlight'),
+ 						map.get(vars.$palette, 'highlight'),
   						$lightness: -15%,
  						$saturation: -5%
 						);
@@ -256,6 +256,7 @@
 		}
 
 	}
+
 
 
 

@@ -8,8 +8,7 @@
 
 @use "mixins" as mixins;
 @use "sass:color" as color;
-@use "../libs/vars";
-@use "variables";
+@use "../libs/vars" as vars;
 
 	@keyframes('reveal-header') {
 		0% { top: -4em; opacity: 0; }
@@ -256,6 +255,7 @@
 		}
 
 	}
+
 
 
 

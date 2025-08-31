@@ -7,6 +7,7 @@
 /* Menu */
 @use "../mixins" as mixins;
 @use "sass:color" as color;
+@use "variables";
 
 	#menu {
 		@include mixins.vendor('transition', (
@@ -171,5 +172,6 @@
 			}
 		}
 	}
+
 
 

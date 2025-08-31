@@ -6,7 +6,7 @@
 
 /* Main */
 
-@use "../libs/mixins" as mixins;
+@use "../mixins" as mixins;
 
 	.main {
 	  @include mixins.inner;
@@ -31,3 +31,4 @@
 		}
 
 	}
+

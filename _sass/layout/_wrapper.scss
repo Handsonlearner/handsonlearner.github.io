@@ -5,9 +5,10 @@
 ///
 
 /* Wrapper */
+@use "../mixins" as mixins;
 
 	#wrapper {
-		@include vendor('transition', (
+		@include mixins.vendor('transition', (
 			'filter #{_duration(menu)} ease',
 			'-webkit-filter #{_duration(menu)} ease',
 			'opacity 0.375s ease-out'
@@ -22,7 +23,8 @@
 			@include inner;
 		}
 
-		@include breakpoint(small) {
+		@include mixins.breakpoint(small) {
 			padding-top: 2.75em;
 		}
+
 	}

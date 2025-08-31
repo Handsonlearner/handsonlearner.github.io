@@ -8,9 +8,12 @@
 @use '../mixins' as mixins;
 @use "sass:color" as color;
 @use "variables";
-@use "sass:map";
 @use "../libs/vars"; // Make sure you have access to $palette
+@use "sass:map";
 
+@function _palette($key) {
+  @return map.get($palette, $key);
+}
 
 .spotlights {
 		border-top: 0 !important;
@@ -123,12 +126,13 @@
 		@include mixins.breakpoint(small) {
 			> section {
 				> .content {
-					@include padding(3em, 1.5em);
+					@include mixins.padding(3em, 1.5em);
 				}
 			}
 		}
 	}
 }
+
 
 
 

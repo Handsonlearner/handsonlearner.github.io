@@ -54,8 +54,7 @@
 			}
 
 			> :last-child {
-				margin-bottom: (_size(element-margin) * 1.5);
-			}
+				margin-bottom: 1.5em;  //added via chatgpt			}
 		}
 
 		ul {
@@ -173,6 +172,7 @@
 			}
 		}
 	}
+
 
 
 

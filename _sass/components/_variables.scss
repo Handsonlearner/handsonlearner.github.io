@@ -7,9 +7,6 @@
 // --------------------------------------------------
 
 
-@use "sass:map";
-
-
 $palette: (
   bg: #ffffff,          // Main background
   bg-alt: #f5f5f5,      // Alternate background
@@ -38,6 +35,8 @@ $palette: (
     @return null;
   }
 }
+
+@use "sass:map";
 
 @function _palette($key) {
   @return map.get($palette, $key);

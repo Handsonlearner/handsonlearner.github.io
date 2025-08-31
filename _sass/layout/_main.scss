@@ -22,7 +22,7 @@
 				border-top: 0;
 			}
 
-			@include inner;
+			@include mixins.inner;
 		}
 
 		&.alt {
@@ -31,4 +31,5 @@
 		}
 
 	}
+
 

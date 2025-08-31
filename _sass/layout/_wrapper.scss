@@ -20,7 +20,7 @@
 		}
 
 		> * {
-			@include inner;
+			@include mixins.inner;
 		}
 
 		@include mixins.breakpoint(small) {
@@ -28,3 +28,4 @@
 		}
 
 	}
+

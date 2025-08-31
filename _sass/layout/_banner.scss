@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-@use 'mixins';
+@use '../mixins' as mixins;
 
 /* Banner */
 
@@ -12,7 +12,7 @@
 		@include mixins.vendor('align-items', 'center');
 		@include mixins.vendor('background-image', 'url("../images/banner.jpg")');
 		@include mixins.vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
+		@include mixins.padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -130,7 +130,7 @@
 		}
 
 		@include mixins.breakpoint(small) {
-			@include padding(3em, 0, (2em, 0, 0, 0));
+			@include mixins.padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: none;
@@ -160,7 +160,7 @@
 		}
 
 		@include mixins.breakpoint(xsmall) {
-			@include padding(4em, 0, (2em, 0, 0, 0));
+			@include mixins.padding(4em, 0, (2em, 0, 0, 0));
 
 			> .inner {
 				.content {
@@ -173,9 +173,10 @@
 			}
 
 			&.major {
-				@include padding(6em, 0, (2em, 0, 0, 0));
+				@include mixins.padding(6em, 0, (2em, 0, 0, 0));
 			}
 		}
 	}
+
 
 

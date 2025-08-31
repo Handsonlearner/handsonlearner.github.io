@@ -40,3 +40,9 @@ $palette: (
 @function _palette($key) {
   @return map.get($palette, $key);
 }
+
+// inside _variables.scss
+@function palette($key) {
+  @return _palette($key);
+}
+

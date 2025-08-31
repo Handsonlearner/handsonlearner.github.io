@@ -5,6 +5,7 @@
 ///
 
 /* Footer */
+@use "../mixins" as mixins;
 
 	#footer {
 		.copyright {
@@ -28,7 +29,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		@include mixins.breakpoint(xsmall) {
 			.copyright {
 				li {
 					display: block;
@@ -39,4 +40,5 @@
 				}
 			}
 		}
+
 	}

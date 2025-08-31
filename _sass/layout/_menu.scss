@@ -8,7 +8,7 @@
 @use "../mixins" as mixins;
 @use "sass:color" as color;
 @use "../libs/vars";
-@use "../variables";
+@use "../components/variables";
 
 	#menu {
 		@include mixins.vendor('transition', (
@@ -173,6 +173,7 @@
 			}
 		}
 	}
+
 
 
 

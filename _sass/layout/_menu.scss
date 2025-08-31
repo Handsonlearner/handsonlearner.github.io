@@ -20,7 +20,7 @@
 		@include mixins.vendor('display', 'flex');
 		@include mixins.vendor('justify-content', 'center');
 		@include mixins.vendor('pointer-events', 'none');
-		background: color.adjust(variables._palette(bg), $alpha: -0.1);
+		background: color.adjust(variables.palette(bg), $alpha: -0.1);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -145,7 +145,7 @@
 
 	body.is-ie {
 		#menu {
-			background: color.adjust(variables._palette(bg-alt), $alpha: -0.025);
+			background: color.adjust(variables.palette(bg-alt), $alpha: -0.025);
 		}
 	}
 
@@ -173,6 +173,7 @@
 			}
 		}
 	}
+
 
 
 

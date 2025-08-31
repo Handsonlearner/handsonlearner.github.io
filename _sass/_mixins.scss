@@ -74,6 +74,13 @@
 
 }
 
+// _mixins.scss
+@mixin inner {
+  width: 100%;
+  max-width: 1100px; // adjust to match your design
+  margin: 0 auto;
+  padding: 0 2em;
+}
 
 
 

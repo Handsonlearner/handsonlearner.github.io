@@ -6,6 +6,7 @@
 // hex codes to match your brand or theme.
 // --------------------------------------------------
 
+@use "sass:map";
 
 $palette: (
   bg: #ffffff,          // Main background
@@ -35,8 +36,6 @@ $palette: (
     @return null;
   }
 }
-
-@use "sass:map";
 
 @function _palette($key) {
   @return map.get($palette, $key);

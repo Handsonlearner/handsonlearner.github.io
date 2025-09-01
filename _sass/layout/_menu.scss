@@ -7,7 +7,7 @@
 /* Menu */
 @use "../mixins" as mixins;
 @use "sass:color" as color;
-@use "../libs/vars";
+@use "../libs/vars" as vars;
 @use "../components/variables";
 
 	#menu {
@@ -58,7 +58,7 @@
 		}
 
 		ul {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			margin: 0 0 (vars.size(element-margin) * 0.5) 0;
 
 			&.links {
 				list-style: none;
@@ -173,6 +173,7 @@
 		}
 	}
 }
+
 
 
 

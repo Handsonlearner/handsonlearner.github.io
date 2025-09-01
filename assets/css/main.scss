@@ -46,11 +46,11 @@
 @use 'layout/menu';
 
 @use "sass:color" as color;
-@use "../../_sass/components/variables";
+@use "../../_sass/components/variables" as vars;
 
 
 .some-class {
-  color: color.adjust($color, $saturation: -5%);
+  color: color.adjust(vars.$color, $saturation: -5%);
 }
 /*
 	Forty by HTML5 UP

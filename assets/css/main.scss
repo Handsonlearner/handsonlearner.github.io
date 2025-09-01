@@ -46,7 +46,7 @@
 @use 'layout/menu';
 
 @use "sass:color" as color;
-@use "variables";
+@use "../components/variables";
 
 .some-class {
   color: color.adjust($color, $saturation: -5%);

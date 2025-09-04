@@ -1,33 +1,60 @@
-
-// --------------------------------------------------
-// Global Color Palette
-// --------------------------------------------------
-// Define your main colors here. You can adjust these
-// hex codes to match your brand or theme.
-// --------------------------------------------------
-
 @use "sass:map";
 
-$palette: (
-  bg: #ffffff,          // Main background
-  bg-alt: #f5f5f5,      // Alternate background
-  fg: #333333,          // Main foreground (text)
-  fg-light: #666666,    // Lighter text
-  fg-bold: #111111,     // Strong/dark text
-  border: #dddddd,      // Borders/dividers
-  highlight: #ffcc00,   // Accent / highlight color
-  link: #0066cc,        // Links
-  success: #28a745,     // Success messages
-  warning: #ffc107,     // Warnings
-  danger: #dc3545       // Errors/danger
-);
 
-// --------------------------------------------------
-// Palette Lookup Function
-// --------------------------------------------------
-// Usage: _palette(highlight) → #ffcc00
-// --------------------------------------------------
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
 
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+	$palette: (
+		bg:					#242943,
+		bg-alt:				#2a2f4a,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#9bf1ff,
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
+
+	);
+
+@function size($key) {
+  @return map.get($size, $key);
+}
+
+//modified to condense _variables.scss and remove file.
 @function _palette($key) {
   @if map-has-key($palette, $key) {
     @return map-get($palette, $key);
@@ -36,13 +63,6 @@ $palette: (
     @return null;
   }
 }
-
-@function _palette($key) {
-  @return map.get($palette, $key);
-}
-
-// inside _variables.scss
 @function palette($key) {
   @return _palette($key);
 }
-

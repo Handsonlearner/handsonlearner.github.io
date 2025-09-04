@@ -7,6 +7,9 @@
 @use '../mixins' as mixins;
 @use 'sass:color';
 @use "sass:list";
+@use "../components/variables" as vars; // added
+@use "sass:map";
+
 
 /* Type */
 
@@ -185,6 +188,7 @@
 	.align-right {
 		text-align: right;
 	}
+
 
 
 

@@ -7,8 +7,8 @@
 /* Menu */
 @use "../mixins" as mixins;
 @use "sass:color" as color;
-@use "../libs/vars" as vars;
-@use "../components/variables";
+@use "../components/variables" as vars; // adjust path if needed
+@use "sass:map";
 
 	#menu {
 		@include mixins.vendor('transition', (
@@ -20,7 +20,7 @@
 		@include mixins.vendor('display', 'flex');
 		@include mixins.vendor('justify-content', 'center');
 		@include mixins.vendor('pointer-events', 'none');
-		background: color.adjust(variables.palette(bg), $alpha: -0.1);
+		background: color.adjust(vars.palette(bg), $alpha: -0.1);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -144,7 +144,7 @@
 
 	body.is-ie {
 		#menu {
-			background: color.adjust(variables.palette(bg-alt), $alpha: -0.025);
+			background: color.adjust(vars.palette(bg-alt), $alpha: -0.025);
 		}
 	}
 
@@ -173,6 +173,7 @@
 		}
 	}
 }
+
 
 
 

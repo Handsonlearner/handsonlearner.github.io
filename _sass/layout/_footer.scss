@@ -6,6 +6,9 @@
 
 /* Footer */
 @use "../mixins" as mixins;
+@use "../components/variables" as vars; // adjust path if needed
+@use "sass:map";
+
 
 	#footer {
 		.copyright {
@@ -42,3 +45,4 @@
 		}
 
 	}
+

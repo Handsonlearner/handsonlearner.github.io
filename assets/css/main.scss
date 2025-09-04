@@ -30,7 +30,7 @@
 @use 'components/tiles';
 @use 'components/contact-method';
 //per chatgpt, but changed to match syntax
-@use "libs/vars";      // $palette must be defined here
+//@use "libs/vars";      // $palette must be defined here
 @use 'functions';// where _palette() is defined
 //@import "components/spotlights"; // where _palette() is used
 @use 'components/spotlights';

@@ -5,6 +5,9 @@
 ///
 @use '../mixins' as mixins;
 @use 'sass:color';
+@use "../components/variables" as vars; // adjust path if needed
+@use "sass:map";
+
 /* Icon */
 
 	.icon {
@@ -49,6 +52,7 @@
 				}
 			}
 		}
+
 
 
 

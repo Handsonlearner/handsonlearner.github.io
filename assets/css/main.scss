@@ -29,10 +29,7 @@
 @use 'components/button';
 @use 'components/tiles';
 @use 'components/contact-method';
-//per chatgpt, but changed to match syntax
-//@use "libs/vars";      // $palette must be defined here
 @use 'functions';// where _palette() is defined
-//@import "components/spotlights"; // where _palette() is used
 @use 'components/spotlights';
 
 //Layouts
@@ -46,12 +43,8 @@
 @use 'layout/menu';
 
 @use "sass:color" as color;
-@use "../../_sass/components/variables" as vars;
+@use "../components/variables" as vars;
 
-
-.some-class {
-  color: color.adjust(vars.$color, $saturation: -5%);
-}
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn

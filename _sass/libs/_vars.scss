@@ -53,3 +53,17 @@
 @function size($key) {
   @return map.get($size, $key);
 }
+
+//modified to condense _variables.scss and remove file.
+@function _palette($key) {
+  @if map-has-key($palette, $key) {
+    @return map-get($palette, $key);
+  } @else {
+    @warn "⚠️  Palette key `#{$key}` not found. Check your $palette map.";
+    @return null;
+  }
+}
+@function palette($key) {
+  @return _palette($key);
+}
+

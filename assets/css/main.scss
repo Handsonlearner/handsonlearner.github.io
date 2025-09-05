@@ -31,6 +31,7 @@
 @use 'components/contact-method';
 @use 'functions';// where _palette() is defined
 @use 'components/spotlights';
+@use "components/variables" as vars;
 
 //Layouts
 
@@ -43,7 +44,7 @@
 @use 'layout/menu';
 
 @use "sass:color" as color;
-@use "../components/variables" as vars;
+
 
 /*
 	Forty by HTML5 UP

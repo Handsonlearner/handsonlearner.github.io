@@ -9,7 +9,7 @@
 ///@use 'libs/vars';
 ///@use 'libs/functions';
 ///@use 'libs/mixins';
-@use 'libs/skel-breakpoints';
+@use "../libs/skel-breakpoints" as skel;
 @use 'font-awesome.min.css';
 
 //Base
@@ -61,7 +61,7 @@
 		 font-size: 14pt;
 	}
 
-  	@include mixins.skel-breakpoints((
+  	@include skel.skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
@@ -69,21 +69,35 @@
 		xsmall: '(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
 	));
+	//replace skel.layout per chatgpt
+	.container {
+	  box-sizing: border-box;
+	  display: grid;
+	  grid-gap: 2em;
+	
+	  @media (max-width: 1280px) {
+	    grid-gap: 1.5em;
+	  }
+	
+	  @media (max-width: 736px) {
+	    grid-gap: 1.25em;
+	  }
+	}
 
-	@include mixins.skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 2em ),
-		breakpoints: (
-			large: (
-				grid: ( gutters: 1.5em )
-			),
-			small: (
-				grid: ( gutters: 1.25em )
-			)
-		)
-	));
-}
+	//@include mixins.skel-layout((
+		//reset: 'full',
+		//boxModel: 'border',
+		//grid: ( gutters: 2em ),
+		//breakpoints: (
+			//large: (
+				//grid: ( gutters: 1.5em )
+			//),
+			//small: (
+				//grid: ( gutters: 1.25em )
+			//)
+		//)
+	//));
+//}
 	///@mixin inner {
 	///	> .inner {
 	///		@include padding(4em, 0);

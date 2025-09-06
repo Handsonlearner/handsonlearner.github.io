@@ -2,6 +2,7 @@
 /// @param {string} $content Optional content value to use.
 /// @param {string} $where Optional pseudoelement to target (before or after).
 @use "sass:list";
+@use "sass:map";
 
 
 @mixin breakpoint($point) {
@@ -10,15 +11,7 @@
       @content;
     }
   }
-  // Add other breakpoints as needed
-@include mixins.skel-breakpoints((
-  xlarge: '(max-width: 1680px)',
-  large: '(max-width: 1280px)',
-  medium: '(max-width: 980px)',
-  small: '(max-width: 736px)',
-  xsmall: '(max-width: 480px)',
-  xxsmall: '(max-width: 360px)'
-));
+ 
 }
 @mixin icon($content: false, $where: before) {
 
@@ -89,6 +82,7 @@
   margin: 0 auto;
   padding: 0 2em;
 }
+
 
 
 

@@ -4,6 +4,11 @@
 @use "sass:list";
 @use "sass:map";
 
+$breakpoints: () !default;
+
+@mixin skel-breakpoints($points){
+	$breakpoints: $points !global;
+}
 
 @mixin breakpoint($point) {
   @if $point == xlarge {
@@ -82,6 +87,7 @@
   margin: 0 auto;
   padding: 0 2em;
 }
+
 
 
 
